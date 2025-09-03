@@ -1,0 +1,53 @@
+{
+  "description": "Default templates",
+  "author": "Ben Edwards",
+  "license": "ISC",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benedfit/.github.git"
+  },
+  "homepage": "https://github.com/benedfit/github#readme",
+  "bugs": {
+    "url": "https://github.com/benedfit/github/issues"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "test": "yarn lint",
+    "lint": "concurrently yarn:lint:*",
+    "lint:js": "yarn lint-staged:js --cache .",
+    "lint:renovate": "yarn lint-staged:renovate",
+    "lint-staged:js": "eslint --ignore-path .gitignore",
+    "lint-staged:renovate": "renovate-config-validator renovate-config.json --strict",
+    "format": "concurrently yarn:format:*",
+    "format:js": "yarn lint:js --fix"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "19.8.1",
+    "@newhighsco/commitlint-config": "1.1.46",
+    "@newhighsco/editor-config": "1.2.0",
+    "@newhighsco/eslint-config": "4.1.45",
+    "@newhighsco/prettier-config": "2.1.32",
+    "concurrently": "9.2.1",
+    "eslint": "8.57.1",
+    "husky": "9.1.7",
+    "lint-staged": "16.1.6",
+    "prettier": "3.6.2",
+    "renovate": "41.93.3"
+  },
+  "commitlint": {
+    "extends": [
+      "@newhighsco"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "@newhighsco"
+    ]
+  },
+  "lint-staged": {
+    "*.{[j|t]s?(on|x),mdx}": "yarn lint-staged:js --fix",
+    "renovate-config.json": "yarn lint-staged:renovate"
+  },
+  "prettier": "@newhighsco/prettier-config"
+}
