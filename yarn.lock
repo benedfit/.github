@@ -3889,12 +3889,7 @@ email-addresses@5.0.0:
   resolved "https://registry.yarnpkg.com/email-addresses/-/email-addresses-5.0.0.tgz#7ae9e7f58eef7d5e3e2c2c2d3ea49b78dc854fa6"
   integrity sha512-4OIPYlA6JXqtVn8zpHpGiI7vE6EQOAg16aGnDMIAlZVinnoZ8208tW1hAbjWydgN/4PLTT9q+O1K6AH/vALJGw==
 
-emoji-regex@10.4.0:
-  version "10.4.0"
-  resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-10.4.0.tgz#03553afea80b3975749cfcb36f776ca268e413d4"
-  integrity sha512-EC+0oUMY1Rqm4O6LLrgjtYDvcVYTy7chDnM4Q7030tP4Kwj3u/pR6gP9ygnp2CJMK5Gq+9Q2oqmrFJAz01DXjw==
-
-emoji-regex@^10.2.1, emoji-regex@^10.3.0:
+emoji-regex@10.5.0, emoji-regex@^10.2.1, emoji-regex@^10.3.0:
   version "10.5.0"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-10.5.0.tgz#be23498b9e39db476226d8e81e467f39aca26b78"
   integrity sha512-lb49vf1Xzfx080OKA0o6l8DQQpV+6Vg95zyCJX9VB/BqKYlhG7N4wgROUUHRA+ZPUefLnteQOad7z1kT2bV7bg==
@@ -7890,10 +7885,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.95.0:
-  version "41.95.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.95.0.tgz#519a4bcfb19ea7015df1d674b8f772410d6d4cad"
-  integrity sha512-vJeGtAqPOxXIVQ2wtWPqO/g8iFTXaNSYvv/sPsxxtFACujMGtuA4D0yS2PP1urOyWpAISxJKzB7se+R/b0NYKw==
+renovate@41.97.7:
+  version "41.97.7"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.97.7.tgz#16e6b262cb1fb07ac644c157ae3c1b5c7bbbdf0e"
+  integrity sha512-ViB5AIZLsI6m4vaKnYLTQ/+jhn0OTob4HaiBxSURYk55NOMpIOE0xhLTVG6gn0kSVURpF76ztioBhcBpix3y9w==
   dependencies:
     "@aws-sdk/client-codecommit" "3.879.0"
     "@aws-sdk/client-ec2" "3.879.0"
@@ -7949,7 +7944,7 @@ renovate@41.95.0:
     diff "8.0.2"
     editorconfig "3.0.1"
     email-addresses "5.0.0"
-    emoji-regex "10.4.0"
+    emoji-regex "10.5.0"
     emojibase "16.0.0"
     emojibase-regex "16.0.0"
     extract-zip "2.0.1"
