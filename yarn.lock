@@ -8034,10 +8034,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@42.81.0:
-  version "42.81.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.81.0.tgz#6c8cbddb501684806a6d15d3d0fb9af21f846d1a"
-  integrity sha512-1gnxmODpNEJzgkkJgFa9J6vmitrcCFJgAC86Sg0ypjB3D2OD4Vl1Fq2YSX2am/egH2CdvsDvNZXEy1BUZNcPog==
+renovate@42.81.1:
+  version "42.81.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.81.1.tgz#b9d0c4914aa4f44c520f6bd9b4e7da6c05625437"
+  integrity sha512-TlPWmG3pOKaeOU+jlUW/A736OqKAyJjE5ynwTLdKciJFfC1YtBGUxMvVubedCm9pV4lDn2Fa/iQmiaS23wWXrg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.958.0"
     "@aws-sdk/client-ec2" "3.958.0"
@@ -8155,7 +8155,7 @@ renovate@42.81.0:
     tslib "2.8.1"
     upath "2.0.1"
     url-join "5.0.0"
-    validate-npm-package-name "7.0.1"
+    validate-npm-package-name "7.0.2"
     xmldoc "2.0.3"
     yaml "2.8.2"
     zod "3.25.76"
@@ -9409,10 +9409,10 @@ validate-npm-package-name@5.0.0:
   dependencies:
     builtins "^5.0.0"
 
-validate-npm-package-name@7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/validate-npm-package-name/-/validate-npm-package-name-7.0.1.tgz#8e0bac956a52c924163feb3a776e263eaa3e9fea"
-  integrity sha512-BM0Upcemlce8/9+HE+/VpWqn3u3mYh6Om/FEC8yPMnEHwf710fW5Q6fhjT1SQyRlZD1G9CJbgfH+rWgAcIvjlQ==
+validate-npm-package-name@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/validate-npm-package-name/-/validate-npm-package-name-7.0.2.tgz#e57c3d721a4c8bbff454a246e7f7da811559ea0d"
+  integrity sha512-hVDIBwsRruT73PbK7uP5ebUt+ezEtCmzZz3F59BSr2F6OVFnJ/6h8liuvdLrQ88Xmnk6/+xGGuq+pG9WwTuy3A==
 
 validate-npm-package-name@^5.0.0:
   version "5.0.1"
