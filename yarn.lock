@@ -3953,15 +3953,15 @@ emoji-regex@^9.2.2:
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.2.2.tgz#840c8803b0d8047f4ff0cf963176b32d4ef3ed72"
   integrity sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==
 
-emojibase-regex@16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/emojibase-regex/-/emojibase-regex-16.0.0.tgz#e648d8789dc22c6adc9a10b1af47135559f65a88"
-  integrity sha512-ZMp31BkzBWNW+T73of6NURL6nXQa5GkfKneOkr3cEwBDVllbW/2nuva7NO0J3RjaQ07+SZQNgPTGZ4JlIhmM2Q==
+emojibase-regex@17.0.0:
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/emojibase-regex/-/emojibase-regex-17.0.0.tgz#9133e627e0884f494000e7a51c2d963482cb9b45"
+  integrity sha512-iWlqiz2l2zNf2lDqgN/7qjqKHVUX6H4D+8F5vDZkgjyWyRFXcA5K4rxkoTl7AJmyjHnoytw0m/do2SrGByui+g==
 
-emojibase@16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/emojibase/-/emojibase-16.0.0.tgz#9da603b7d740645d0a5d21c6dcfb97c53d6f96c7"
-  integrity sha512-Nw2m7JLIO4Ou2X/yZPRNscHQXVbbr6SErjkJ7EooG7MbR3yDZszCv9KTizsXFc7yZl0n3WF+qUKIC/Lw6H9xaQ==
+emojibase@17.0.0:
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/emojibase/-/emojibase-17.0.0.tgz#711350fe0f2862945fecd06147370623874ba15e"
+  integrity sha512-bXdpf4HPY3p41zK5swVKZdC/VynsMZ4LoLxdYDE+GucqkFwzcM1GVc4ODfYAlwoKaf2U2oNNUoOO78N96ovpBA==
 
 encoding@^0.1.13:
   version "0.1.13"
@@ -7342,10 +7342,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.18.0:
-  version "43.18.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.18.0.tgz#72bee1db96019f850cc1b4eefc2d511c38d3a270"
-  integrity sha512-/U6mOw4gWBUqCtmBiquYZgLkumkLvpHFkqhDrMDFvwUxZlzXsQw3jPDtzet5Y3V6UcOKQFcRODSQ3nyx2WQW/A==
+renovate@43.19.1:
+  version "43.19.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.19.1.tgz#2c9392f96138de435cbe604b7ae681ef8c8c0915"
+  integrity sha512-yLYCvb2qleMHffCszTe30ym5xjoc8LfYAoU7MFE7udFV5SC0LxG+VPPQt2SVIJ1YXnyCfHmAMdBNrAnPuRE45Q==
   dependencies:
     "@aws-sdk/client-codecommit" "3.980.0"
     "@aws-sdk/client-ec2" "3.980.0"
@@ -7404,8 +7404,8 @@ renovate@43.18.0:
     editorconfig "3.0.1"
     email-addresses "5.0.0"
     emoji-regex "10.6.0"
-    emojibase "16.0.0"
-    emojibase-regex "16.0.0"
+    emojibase "17.0.0"
+    emojibase-regex "17.0.0"
     execa "8.0.1"
     extract-zip "2.0.1"
     find-packages "10.0.4"
