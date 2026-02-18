@@ -3692,10 +3692,10 @@ cosmiconfig@^9.0.0:
     js-yaml "^4.1.0"
     parse-json "^5.2.0"
 
-croner@9.1.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/croner/-/croner-9.1.0.tgz#94ccbba2570bca329f60f36ec19875dccf9a63aa"
-  integrity sha512-p9nwwR4qyT5W996vBZhdvBCnMhicY5ytZkR4D1Xj0wuTDEiMnjwR57Q3RXYY/s0EpX6Ay3vgIcfaR+ewGHsi+g==
+croner@10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/croner/-/croner-10.0.1.tgz#4eb92806c99539146dbe2f3ee3907e319cb2847a"
+  integrity sha512-ixNtAJndqh173VQ4KodSdJEI6nuioBWI0V1ITNKhZZsO0pEMoDxz539T4FTTbSZ/xIOSuDnzxLVRqBVSvPNE2g==
 
 cronstrue@3.12.0:
   version "3.12.0"
@@ -7128,11 +7128,6 @@ prettier-linter-helpers@^1.0.1:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.6.2.tgz#ccda02a1003ebbb2bfda6f83a074978f608b9393"
-  integrity sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==
-
 prettier@3.8.1:
   version "3.8.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.8.1.tgz#edf48977cf991558f4fcbd8a3ba6015ba2a3a173"
@@ -7399,10 +7394,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.24.3:
-  version "43.24.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.24.3.tgz#b2966aa544d45c3abafa35c4cf77dd2fd3e39826"
-  integrity sha512-8GeI/hGZkiqfe2DziFdPgIczcYT8jJPTKHi6QJ4rOa+aN/EvbDW8lRbjQhTlLLVM4cT76R14dC0jGtQUP3B3gQ==
+renovate@43.25.4:
+  version "43.25.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.25.4.tgz#9f39831f2451de03271a672b0f1ba4689c4d93e1"
+  integrity sha512-gUTzPW7PGL8oreMH9s3n9arYSGpngd+GV4ouZAFosbEN9bYpXywIxSOP6loOsb9W9rWxWobw1mCFKwyi2WOK1w==
   dependencies:
     "@aws-sdk/client-codecommit" "3.992.0"
     "@aws-sdk/client-ec2" "3.992.0"
@@ -7452,7 +7447,7 @@ renovate@43.24.3:
     clean-git-ref "2.0.1"
     commander "14.0.3"
     conventional-commits-detector "1.0.3"
-    croner "9.1.0"
+    croner "10.0.1"
     cronstrue "3.12.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
@@ -7497,7 +7492,7 @@ renovate@43.24.3:
     p-queue "9.1.0"
     p-throttle "8.1.0"
     parse-link-header "2.0.0"
-    prettier "3.6.2"
+    prettier "3.8.1"
     protobufjs "8.0.0"
     punycode "2.3.1"
     redis "5.10.0"
