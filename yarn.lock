@@ -1399,10 +1399,10 @@
   resolved "https://registry.yarnpkg.com/@kwsites/promise-deferred/-/promise-deferred-1.1.1.tgz#8ace5259254426ccef57f3175bc64ed7095ed919"
   integrity sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==
 
-"@newhighsco/commitlint-config@1.1.55":
-  version "1.1.55"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.55.tgz#7bad20d21116ecd11e289bd456abf236238bb255"
-  integrity sha512-C/ze0oESdvPAUYlpfIxd0YXruWab3I3O01jDne9sVpt+d0xQCENemB4EWqQVH1qjEJBporme5hzWlXegRHXvrQ==
+"@newhighsco/commitlint-config@1.1.56":
+  version "1.1.56"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.56.tgz#ba5a28da13a2a94caee2dc01a36476d0bbe166b1"
+  integrity sha512-ev7lUkK1ocQnOTy81JOxS5/AYsFUnhvm1hW0vnL2imaPk8tzc3UFJ4RZhpXs6bR6ZC6gVNfgulUeuYKXN0V03A==
 
 "@newhighsco/editor-config@1.2.0":
   version "1.2.0"
