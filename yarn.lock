@@ -2528,10 +2528,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ae-cvss-calculator@npm:1.0.12":
-  version: 1.0.12
-  resolution: "ae-cvss-calculator@npm:1.0.12"
-  checksum: 10c0/2ee4b60a9482acfb678371e901975efabe7abe8b69b48b754b422332a271dbd2d212f3b6e7771e8a0e0fd52514e11d0b81277a7bfc9eb9e0a7737d667a39dd1d
+"ae-cvss-calculator@npm:1.0.13":
+  version: 1.0.13
+  resolution: "ae-cvss-calculator@npm:1.0.13"
+  checksum: 10c0/454f036a8ee247ee247a320d12c1d62e55c1c1189ed8de904b68a313c3b4dcce680914d7ce893f61cd0f9431846a8bab901cbd5ea96a81b283e36c19bb50250f
   languageName: node
   linkType: hard
 
@@ -7564,9 +7564,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.251.1":
-  version: 43.251.1
-  resolution: "renovate@npm:43.251.1"
+"renovate@npm:43.251.2":
+  version: 43.251.2
+  resolution: "renovate@npm:43.251.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1075.0"
     "@aws-sdk/client-ec2": "npm:3.1075.0"
@@ -7606,7 +7606,7 @@ __metadata:
     "@yarnpkg/core": "npm:4.9.0"
     "@yarnpkg/parsers": "npm:3.0.3"
     adm-zip: "npm:0.5.17"
-    ae-cvss-calculator: "npm:1.0.12"
+    ae-cvss-calculator: "npm:1.0.13"
     agentkeepalive: "npm:4.6.0"
     async-mutex: "npm:0.5.0"
     aws4: "npm:1.13.2"
@@ -7695,7 +7695,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/2f5fd2965e564bbd30ae9bf5556787a2fe19a519529410861a38a50de99592d4dcf5d5a535a57d3acff9eb2d3057098aae9d24072ea7ced9cbefb85038cddc88
+  checksum: 10c0/d4c1c695bac5aca0dbe37b21c22516804db816cf0b1ec473ef5877f41c771f65d53910d58e76f07d10f195a9f86e7ecaa72b9ec21ebf34851087f9a328411861
   languageName: node
   linkType: hard
 
@@ -7863,7 +7863,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.0.8"
     prettier: "npm:3.9.4"
-    renovate: "npm:43.251.1"
+    renovate: "npm:43.251.2"
   languageName: unknown
   linkType: soft
 
