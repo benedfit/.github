@@ -2535,14 +2535,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"adm-zip@npm:0.5.17":
-  version: 0.5.17
-  resolution: "adm-zip@npm:0.5.17"
-  checksum: 10c0/29b8f2a1070fc540ad9a45b13d0ceffd141d78e5a4501f102e978f0256f8290326009ccd3411213e90f3a810c830b39453548638879b3295ddc3814c20a8307b
-  languageName: node
-  linkType: hard
-
-"adm-zip@npm:~0.5.17":
+"adm-zip@npm:0.5.18, adm-zip@npm:~0.5.17":
   version: 0.5.18
   resolution: "adm-zip@npm:0.5.18"
   checksum: 10c0/9b734aa7126a01913baec02bf495d086b5d7e63315522b7087620e3fc8279c8ebd65109da4d99f16fcf873d87522ae6ffd913aef65449fd22c68777b772685e9
@@ -7609,9 +7602,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.252.1":
-  version: 43.252.1
-  resolution: "renovate@npm:43.252.1"
+"renovate@npm:43.252.3":
+  version: 43.252.3
+  resolution: "renovate@npm:43.252.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1075.0"
     "@aws-sdk/client-ec2": "npm:3.1075.0"
@@ -7650,7 +7643,7 @@ __metadata:
     "@sindresorhus/is": "npm:8.1.0"
     "@yarnpkg/core": "npm:4.9.0"
     "@yarnpkg/parsers": "npm:3.0.3"
-    adm-zip: "npm:0.5.17"
+    adm-zip: "npm:0.5.18"
     ae-cvss-calculator: "npm:1.0.13"
     agentkeepalive: "npm:4.6.0"
     async-mutex: "npm:0.5.0"
@@ -7740,7 +7733,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/763a84a8025adb25206742e473ca120cf7d2b8cddcf6b9e456c5533349899011389756a6d85035fbdd58517b36e93bf752e97630898c39ccaf85c94591b326ff
+  checksum: 10c0/85ef2b0157021f6fa2c542c8f6d71265de283b555f7f989028be3a2308b10809839c7c6a58eebad31a9191b1552146bef2321f3f201849badf0ca1515271e31b
   languageName: node
   linkType: hard
 
@@ -7908,7 +7901,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.0.8"
     prettier: "npm:3.9.4"
-    renovate: "npm:43.252.1"
+    renovate: "npm:43.252.3"
   languageName: unknown
   linkType: soft
 
