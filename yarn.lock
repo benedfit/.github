@@ -7465,9 +7465,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.275.0":
-  version: 43.275.0
-  resolution: "renovate@npm:43.275.0"
+"renovate@npm:43.278.1":
+  version: 43.278.1
+  resolution: "renovate@npm:43.278.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1075.0"
     "@aws-sdk/client-ec2": "npm:3.1075.0"
@@ -7486,6 +7486,7 @@ __metadata:
     "@opentelemetry/instrumentation-bunyan": "npm:0.65.0"
     "@opentelemetry/instrumentation-http": "npm:0.220.0"
     "@opentelemetry/instrumentation-redis": "npm:0.68.0"
+    "@opentelemetry/otlp-transformer": "npm:0.220.0"
     "@opentelemetry/resource-detector-aws": "npm:2.20.0"
     "@opentelemetry/resource-detector-azure": "npm:0.28.0"
     "@opentelemetry/resource-detector-gcp": "npm:0.55.0"
@@ -7596,7 +7597,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/5a758ca48668c80c652b2007d317cc111ad1d1867308f1f3564e1b016d0e09ef0e5e57536f6918fb5c773b82b3071c11cc5820361324ab1a1a7a540fb88c425b
+  checksum: 10c0/3567580aee788e4a66c3629ed59bddbfe84cbc8ed2132a8793d8128c932fc26688664b5b88dd13a5ca855463e89875621ea131b12a2834156a009614f9e0688c
   languageName: node
   linkType: hard
 
@@ -7747,7 +7748,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.1.1"
     prettier: "npm:3.9.6"
-    renovate: "npm:43.275.0"
+    renovate: "npm:43.278.1"
   languageName: unknown
   linkType: soft
 
