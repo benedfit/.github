@@ -3278,6 +3278,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"common-tags@npm:1.8.2":
+  version: 1.8.2
+  resolution: "common-tags@npm:1.8.2"
+  checksum: 10c0/23efe47ff0a1a7c91489271b3a1e1d2a171c12ec7f9b35b29b2fce51270124aff0ec890087e2bc2182c1cb746e232ab7561aaafe05f1e7452aea733d2bfe3f63
+  languageName: node
+  linkType: hard
+
 "concat-map@npm:0.0.1":
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1"
@@ -7523,9 +7530,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.78.0":
-  version: 44.78.0
-  resolution: "renovate@npm:44.78.0"
+"renovate@npm:44.79.3":
+  version: 44.79.3
+  resolution: "renovate@npm:44.79.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1117.0"
     "@aws-sdk/client-ec2": "npm:3.1117.0"
@@ -7578,6 +7585,7 @@ __metadata:
     changelog-filename-regex: "npm:2.0.1"
     clean-git-ref: "npm:2.0.1"
     commander: "npm:15.0.0"
+    common-tags: "npm:1.8.2"
     croner: "npm:10.0.1"
     cronstrue: "npm:3.24.0"
     deepmerge: "npm:4.3.1"
@@ -7659,7 +7667,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/0aa1ac2ab7e0b4a04f5b0eab25278e6e62d89524a345afa1788c6a3e0a2fdb268c92e1a9f8dea4d0188aaf6b951ab9a243d6b636cab87e32db26b7cfc8dbedae
+  checksum: 10c0/728700e95b98fbf8b50fd02b7831e3b408e86d3c6daf9dc3e2ae3d7f47695b468e8114160ca0ab282b6d74a7a5ff9dddc0cd26757bacf13470b6e5b64c0f2b6d
   languageName: node
   linkType: hard
 
@@ -7817,7 +7825,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.5.1"
     prettier: "npm:3.9.6"
-    renovate: "npm:44.78.0"
+    renovate: "npm:44.79.3"
   languageName: unknown
   linkType: soft
 
