@@ -7556,9 +7556,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.104.0":
-  version: 44.104.0
-  resolution: "renovate@npm:44.104.0"
+"renovate@npm:44.104.1":
+  version: 44.104.1
+  resolution: "renovate@npm:44.104.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1117.0"
     "@aws-sdk/client-ec2": "npm:3.1117.0"
@@ -7684,7 +7684,7 @@ __metadata:
     xmldoc: "npm:3.0.0"
     yaml: "npm:2.9.1"
     yauzl: "npm:3.4.0"
-    zod: "npm:4.6.4"
+    zod: "npm:4.6.5"
   dependenciesMeta:
     openpgp:
       optional: true
@@ -7693,7 +7693,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/595556f749368edd9a5f50e9c329f42b63992b9448f0dce52becb3692b8984aaeaa17f1377909e06c477662f08113a6e4a2106c4b03e1872f7775581756c5b83
+  checksum: 10c0/561cfe38092911eeac6f4efa0ea06037862289f2e068fa7a69d61d41b9d325e6fe244d5cc5a20bf07650ee0cb058a0e65dfa51d4dd0dae30bd2cd257c4ee0e30
   languageName: node
   linkType: hard
 
@@ -7851,7 +7851,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.5.1"
     prettier: "npm:3.9.8"
-    renovate: "npm:44.104.0"
+    renovate: "npm:44.104.1"
   languageName: unknown
   linkType: soft
 
@@ -9167,14 +9167,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:4.6.4":
-  version: 4.6.4
-  resolution: "zod@npm:4.6.4"
-  checksum: 10c0/c0b9f14353e7cbd7b984703b28ede906c0b6784ca4d0fdb0e0a371add14d6fc29ec4428ef5234a9189ef9db6cfb936cdc98201fb0d446e7521b81cabf627ea3d
-  languageName: node
-  linkType: hard
-
-"zod@npm:^3.25.0 || ^4.0.0, zod@npm:^4.6.4":
+"zod@npm:4.6.5, zod@npm:^3.25.0 || ^4.0.0, zod@npm:^4.6.4":
   version: 4.6.5
   resolution: "zod@npm:4.6.5"
   checksum: 10c0/32eb6c5e98becbe045675b2141c3611451c16ba567f9779231d79af41c4d651ca1c22f154aef7e6c6e77b929f23e43f1154ca05b82e119e922353725d6776af5
