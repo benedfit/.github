@@ -1851,9 +1851,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/base-image@npm:13.116.0":
-  version: 13.116.0
-  resolution: "@renovatebot/base-image@npm:13.116.0"
+"@renovatebot/base-image@npm:13.116.1":
+  version: 13.116.1
+  resolution: "@renovatebot/base-image@npm:13.116.1"
   dependencies:
     "@containerbase/base": "npm:14.29.0"
   peerDependencies:
@@ -1861,7 +1861,7 @@ __metadata:
   peerDependenciesMeta:
     zod:
       optional: true
-  checksum: 10c0/9e45340e2dba4174c83c4d1fa19d97cb4720029f5bd955c23874cd986cf935db904491429a21a9a263a06527b0270a125415e3a94052e590d451f8b11cae2400
+  checksum: 10c0/b6af105197be7bf22e1f971a14c7c4c12c67ea29460b068a7231e8251fb6331cc618772912345c1dea78023a6f651c169e6a0edaf7f1e7b19f8b7d25d3ecb7b6
   languageName: node
   linkType: hard
 
@@ -7596,9 +7596,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.145.0":
-  version: 44.145.0
-  resolution: "renovate@npm:44.145.0"
+"renovate@npm:44.145.1":
+  version: 44.145.1
+  resolution: "renovate@npm:44.145.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1139.0"
     "@aws-sdk/client-ec2": "npm:3.1139.0"
@@ -7631,7 +7631,7 @@ __metadata:
     "@pnpm/parse-overrides": "npm:1001.0.4"
     "@qnighy/marshal": "npm:0.1.3"
     "@redis/client": "npm:6.3.0"
-    "@renovatebot/base-image": "npm:13.116.0"
+    "@renovatebot/base-image": "npm:13.116.1"
     "@renovatebot/detect-tools": "npm:4.0.21"
     "@renovatebot/good-enough-parser": "npm:2.0.1"
     "@renovatebot/osv-offline": "npm:3.0.12"
@@ -7734,7 +7734,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/40e91449e3728a75ef35ba7919eaa67208360f36cf1a383bd686a334fea7572bf32b47f6e5d47d9ff4d42dc1672ff3ec0399093421f8b4284a3761d97b6e9bf4
+  checksum: 10c0/ecec9f570d66cc4b47fd7c953fad95b355a311161c72e6b0a2eb266440facc035b5f4da82313cc3ae5bde663b3db453039c27e2ad4589162af9226368b6615f1
   languageName: node
   linkType: hard
 
@@ -7892,7 +7892,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.6.0"
     prettier: "npm:3.9.9"
-    renovate: "npm:44.145.0"
+    renovate: "npm:44.145.1"
   languageName: unknown
   linkType: soft
 
