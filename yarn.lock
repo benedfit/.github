@@ -1836,11 +1836,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redis/client@npm:6.2.1":
-  version: 6.2.1
-  resolution: "@redis/client@npm:6.2.1"
-  dependencies:
-    cluster-key-slot: "npm:1.1.2"
+"@redis/client@npm:6.3.0":
+  version: 6.3.0
+  resolution: "@redis/client@npm:6.3.0"
   peerDependencies:
     "@node-rs/xxhash": ^1.1.0
     "@opentelemetry/api": ">=1 <2"
@@ -1849,7 +1847,7 @@ __metadata:
       optional: true
     "@opentelemetry/api":
       optional: true
-  checksum: 10c0/fe1f784343778e04f31637ec13484318cdcb19c3565b64e4a501bdfe4e0a8012fad41fc88604fba29d2d1f8425c470bb98691d2105d8502ae6570daab7b6925a
+  checksum: 10c0/e194a221d29785e581250d9ec212891c5bb133599cab98db7b985afbc06809c85b6e717b10f86e46033ae5e9bb08d034642484cd87b5e01e538575bbf0956217
   languageName: node
   linkType: hard
 
@@ -3281,13 +3279,6 @@ __metadata:
   dependencies:
     mimic-response: "npm:^1.0.0"
   checksum: 10c0/06a2b611824efb128810708baee3bd169ec9a1bf5976a5258cd7eb3f7db25f00166c6eee5961f075c7e38e194f373d4fdf86b8166ad5b9c7e82bbd2e333a6087
-  languageName: node
-  linkType: hard
-
-"cluster-key-slot@npm:1.1.2":
-  version: 1.1.2
-  resolution: "cluster-key-slot@npm:1.1.2"
-  checksum: 10c0/d7d39ca28a8786e9e801eeb8c770e3c3236a566625d7299a47bb71113fb2298ce1039596acb82590e598c52dbc9b1f088c8f587803e697cb58e1867a95ff94d3
   languageName: node
   linkType: hard
 
@@ -7605,9 +7596,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.142.1":
-  version: 44.142.1
-  resolution: "renovate@npm:44.142.1"
+"renovate@npm:44.143.0":
+  version: 44.143.0
+  resolution: "renovate@npm:44.143.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1139.0"
     "@aws-sdk/client-ec2": "npm:3.1139.0"
@@ -7639,7 +7630,7 @@ __metadata:
     "@opentelemetry/semantic-conventions": "npm:1.43.0"
     "@pnpm/parse-overrides": "npm:1001.0.4"
     "@qnighy/marshal": "npm:0.1.3"
-    "@redis/client": "npm:6.2.1"
+    "@redis/client": "npm:6.3.0"
     "@renovatebot/base-image": "npm:13.115.1"
     "@renovatebot/detect-tools": "npm:4.0.21"
     "@renovatebot/good-enough-parser": "npm:2.0.1"
@@ -7743,7 +7734,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/967d10bc5567f4b66a4a5a8e6ca5b4a921bd113d388d3eaf08ca5fc14eed23ff6a47ef1fe1c83d67f16619b5d5e82d1c30b5d207f6e00f85c226cea5ed5fb67e
+  checksum: 10c0/0ca839c1b247cfc5ea48cf2414310d22350f35ae0479fa472b20dc8cf94f885ff01ea2976fcd701c2391c2fce368e544477d38ea4742e5b11fe8ce48ded2d4f5
   languageName: node
   linkType: hard
 
@@ -7901,7 +7892,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.6.0"
     prettier: "npm:3.9.9"
-    renovate: "npm:44.142.1"
+    renovate: "npm:44.143.0"
   languageName: unknown
   linkType: soft
 
