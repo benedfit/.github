@@ -1560,10 +1560,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/semantic-conventions@npm:1.43.0, @opentelemetry/semantic-conventions@npm:^1.27.0, @opentelemetry/semantic-conventions@npm:^1.29.0, @opentelemetry/semantic-conventions@npm:^1.37.0, @opentelemetry/semantic-conventions@npm:^1.41.1":
-  version: 1.43.0
-  resolution: "@opentelemetry/semantic-conventions@npm:1.43.0"
-  checksum: 10c0/ea4b4b07c9414b0c5e7ce7349f608cb2572d16922d96077fb0882b59f173ec9b94aada74896bd5dd4aeb1759924503bd5a34b6dc2847a84c36f71626a0578ec4
+"@opentelemetry/semantic-conventions@npm:1.44.0, @opentelemetry/semantic-conventions@npm:^1.27.0, @opentelemetry/semantic-conventions@npm:^1.29.0, @opentelemetry/semantic-conventions@npm:^1.37.0, @opentelemetry/semantic-conventions@npm:^1.41.1":
+  version: 1.44.0
+  resolution: "@opentelemetry/semantic-conventions@npm:1.44.0"
+  checksum: 10c0/38ce72dfe254e16177903cc42475eecdfd312d20487133a84d1ab8d97c452acabb186e0069ddcd9a8ba1f65d76535dfec670ce059ef4265f8f29fc395b0db5f0
   languageName: node
   linkType: hard
 
@@ -4615,25 +4615,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gaxios@npm:^7.1.3":
-  version: 7.3.1
-  resolution: "gaxios@npm:7.3.1"
+"gaxios@npm:^8.3.1":
+  version: 8.3.2
+  resolution: "gaxios@npm:8.3.2"
   dependencies:
     extend: "npm:^3.0.2"
     https-proxy-agent: "npm:^7.0.1"
     node-fetch: "npm:^3.3.2"
-  checksum: 10c0/64719a771c5ffa631b33d18b144253596f69d98fa3123c3864f7b66947bb1406fb98a4690bd7e11c651d2ee3f57b60b23814cc4a7dbd62d043eab9fa3df60f96
-  languageName: node
-  linkType: hard
-
-"gaxios@npm:^8.3.0":
-  version: 8.3.1
-  resolution: "gaxios@npm:8.3.1"
-  dependencies:
-    extend: "npm:^3.0.2"
-    https-proxy-agent: "npm:^7.0.1"
-    node-fetch: "npm:^3.3.2"
-  checksum: 10c0/d375fa88b4a53aebba40256b4e159797eaf239a90bffdc1d97cd252c6fd1efe19eb879f1400b1ed0eb9d2de459c4464ca218994077ec7260ff8057e0eba44830
+  checksum: 10c0/112ba770aed72a4fc794b869beb57f9a88d76ceb33329ad16c48224793600a8bd31b6dcafee9ab28272113dd384fd03a6991e9913a89b7bb90e0b6b56829e4bb
   languageName: node
   linkType: hard
 
@@ -4648,14 +4637,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gcp-metadata@npm:^9.0.0":
-  version: 9.0.4
-  resolution: "gcp-metadata@npm:9.0.4"
+"gcp-metadata@npm:^9.2.1":
+  version: 9.2.3
+  resolution: "gcp-metadata@npm:9.2.3"
   dependencies:
-    gaxios: "npm:^7.1.3"
-    google-logging-utils: "npm:^2.0.0"
+    gaxios: "npm:^8.3.1"
+    google-logging-utils: "npm:^2.1.0"
     json-bigint: "npm:^1.0.0"
-  checksum: 10c0/bd10f0ac2594f066f52818f2f2191bd60d6038619ee315d5a8e101b1b00d43d28b6c331879c025657128fc63435153b3506b2dbc9a9bf9872e77d2cd7a0c8828
+  checksum: 10c0/86c4fc28edd923ddd7c3a05b986cda1f395a12a9c090bb8d5e094f8330fca48c3a2b34f40c69752effdb72f05f8cf28e52dcba05052d57472302abb0abdade84
   languageName: node
   linkType: hard
 
@@ -4872,17 +4861,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"google-auth-library@npm:11.3.1":
-  version: 11.3.1
-  resolution: "google-auth-library@npm:11.3.1"
+"google-auth-library@npm:11.3.2":
+  version: 11.3.2
+  resolution: "google-auth-library@npm:11.3.2"
   dependencies:
     base64-js: "npm:^1.3.0"
     ecdsa-sig-formatter: "npm:^1.0.11"
-    gaxios: "npm:^8.3.0"
-    gcp-metadata: "npm:^9.0.0"
-    google-logging-utils: "npm:^2.0.0"
+    gaxios: "npm:^8.3.1"
+    gcp-metadata: "npm:^9.2.1"
+    google-logging-utils: "npm:^2.1.0"
     jws: "npm:^4.0.0"
-  checksum: 10c0/db72e7977fdb965312c5fc4696451f500e548607e413cac4a63e3c5ce37097e3c387cf43a1eb35ad8dbbbc4934b37370ffa0eda8a07dbe8e446c6b057a1af983
+  checksum: 10c0/f049a897fbe77eda10e640b7ae4804aab611b9618d33e47080925f32a348b98d352a7932f147c14f0aaf1567583acadb692d8bf863e267201bb5d3e86a61409f
   languageName: node
   linkType: hard
 
@@ -4893,10 +4882,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"google-logging-utils@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "google-logging-utils@npm:2.0.1"
-  checksum: 10c0/f8926ef09ad94e2c9f0bca4c455e300f610a7b13da6fb055aecaab79975fc0fe0d308241063da9bdbfc19cf450088258a3c4c7ce5ffdf79c77d74c71a9427881
+"google-logging-utils@npm:^2.1.0":
+  version: 2.1.1
+  resolution: "google-logging-utils@npm:2.1.1"
+  checksum: 10c0/53653292f82c064097ebc99015d7901b47c8ca9918d2077ba26fe831af6be8535707896ba47e15d419388b25f8c795bdd8a24cb45f5b9542c1cb2e61c21933bc
   languageName: node
   linkType: hard
 
@@ -7548,9 +7537,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.216.1":
-  version: 44.216.1
-  resolution: "renovate@npm:44.216.1"
+"renovate@npm:44.216.3":
+  version: 44.216.3
+  resolution: "renovate@npm:44.216.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1139.0"
     "@aws-sdk/client-ec2": "npm:3.1139.0"
@@ -7579,7 +7568,7 @@ __metadata:
     "@opentelemetry/resource-detector-github": "npm:0.34.0"
     "@opentelemetry/resources": "npm:3.0.0"
     "@opentelemetry/sdk-trace": "npm:3.0.0"
-    "@opentelemetry/semantic-conventions": "npm:1.43.0"
+    "@opentelemetry/semantic-conventions": "npm:1.44.0"
     "@pnpm/parse-overrides": "npm:1001.0.4"
     "@qnighy/marshal": "npm:0.1.3"
     "@redis/client": "npm:6.3.0"
@@ -7624,7 +7613,7 @@ __metadata:
     github-url-from-git: "npm:1.5.0"
     glob: "npm:13.0.6"
     global-agent: "npm:3.0.0"
-    google-auth-library: "npm:11.3.1"
+    google-auth-library: "npm:11.3.2"
     got: "npm:16.1.0"
     graph-data-structure: "npm:4.5.0"
     handlebars: "npm:4.7.10"
@@ -7684,7 +7673,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/b06c1f051f4bee56c01cb70b3398699a7e479b15865c61e851080e935d5c6e2d0bb9304f6b642e339685d1397b4b6d7eabe4b9b62f4d50c90a733188a6fffeff
+  checksum: 10c0/3faac0f3b520d53fe73addb67da297aec1afc49d49952269a9df3dc04b6694f8b6e5287fb2edeab0c402fcfd333a80eee5517e50ec2569cf351f80d59df756a1
   languageName: node
   linkType: hard
 
@@ -7842,7 +7831,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.6.0"
     prettier: "npm:3.9.10"
-    renovate: "npm:44.216.1"
+    renovate: "npm:44.216.3"
   languageName: unknown
   linkType: soft
 
