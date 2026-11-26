@@ -830,7 +830,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@containerbase/base@npm:14.70.0, @containerbase/base@npm:^14.62.0":
+"@containerbase/base@npm:14.70.0":
   version: 14.70.0
   resolution: "@containerbase/base@npm:14.70.0"
   dependencies:
@@ -841,6 +841,20 @@ __metadata:
     zod:
       optional: true
   checksum: 10c0/9a5e6baf68aa1ccc8c4227197dc7bcfb6bc6db2b4244bca7004cf4f96732cfdccb8606821943e6bc7541f716261d212e137c93c9d2d5c6d6d94b5d6dd3a71a2d
+  languageName: node
+  linkType: hard
+
+"@containerbase/base@npm:^15.0.0":
+  version: 15.0.1
+  resolution: "@containerbase/base@npm:15.0.1"
+  dependencies:
+    semver: "npm:^7.8.5"
+  peerDependencies:
+    zod: ^4.0.0
+  peerDependenciesMeta:
+    zod:
+      optional: true
+  checksum: 10c0/9ccbda0261a069f593f80afb875584d150fa4de9def265b396aacb617b04d8f30aac33925623c65812914b6d5596795faa726fa7ae51f3ffbbb480ffe8a4f432
   languageName: node
   linkType: hard
 
@@ -1817,9 +1831,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/base-image@npm:13.178.0":
-  version: 13.178.0
-  resolution: "@renovatebot/base-image@npm:13.178.0"
+"@renovatebot/base-image@npm:13.178.1":
+  version: 13.178.1
+  resolution: "@renovatebot/base-image@npm:13.178.1"
   dependencies:
     "@containerbase/base": "npm:14.70.0"
   peerDependencies:
@@ -1827,7 +1841,7 @@ __metadata:
   peerDependenciesMeta:
     zod:
       optional: true
-  checksum: 10c0/5a7787b82f7d089ba717593b3b15a4ce85c53f9327ae7f9b6086af2fc8e9932c968f8463e39b3a385f62f684b95c19bb80c08bc25bdac5f98e06d76e5736db64
+  checksum: 10c0/eb006d5c53f5ce4b888ceac318053305d81e04e0356e23833467f22559de9ffde59c6d1b69f1e3fe95cecca1030828a9644c9f32807be4df8a15fde484590284
   languageName: node
   linkType: hard
 
@@ -1855,27 +1869,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline-db@npm:4.5.10":
-  version: 4.5.10
-  resolution: "@renovatebot/osv-offline-db@npm:4.5.10"
+"@renovatebot/osv-offline-db@npm:4.5.11":
+  version: 4.5.11
+  resolution: "@renovatebot/osv-offline-db@npm:4.5.11"
   dependencies:
-    "@containerbase/base": "npm:^14.62.0"
+    "@containerbase/base": "npm:^15.0.0"
     debug: "npm:^4.4.3"
-  checksum: 10c0/805c7af28b363204cb126c0548d27e1e993290893fcb1de8ccf1fa55c1f52cf2a51c82ab19c06e8997703ed0d6853fd11771a61dc4ad5e7de74699ef3ce696bd
+  checksum: 10c0/a8973783f43456a46f683881bf9d98d3066046c92cdeb6c2e13879f7d1895ed2fbd860a764c2866a0a5a6f632e30c3536f42da11e7a195da3dc908cc243276da
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline@npm:4.5.10":
-  version: 4.5.10
-  resolution: "@renovatebot/osv-offline@npm:4.5.10"
+"@renovatebot/osv-offline@npm:4.5.11":
+  version: 4.5.11
+  resolution: "@renovatebot/osv-offline@npm:4.5.11"
   dependencies:
-    "@renovatebot/osv-offline-db": "npm:4.5.10"
+    "@renovatebot/osv-offline-db": "npm:4.5.11"
     fs-extra: "npm:^11.4.1"
     got: "npm:^15.1.0"
     luxon: "npm:^3.7.2"
     ms: "npm:^2.1.3"
     yauzl: "npm:^3.4.0"
-  checksum: 10c0/f34abe7bdc945e38482cbadbb1481eac0c19f346820faa9d4d83c671b7d1cd7d1a04a0c24e60cc198130a7e7c26f91d3b4b9f4fabeb2da4bab4f16fd812d24bf
+  checksum: 10c0/7b2da209fa726ce08552a16cb2afa3917899f228860a0f48ae693be29391df982bb2a36ba5cc497a71a8f00c30ff5ed4648d8f73ee65514e5fc4e1280fdaf74f
   languageName: node
   linkType: hard
 
@@ -3369,12 +3383,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cronstrue@npm:3.42.0":
-  version: 3.42.0
-  resolution: "cronstrue@npm:3.42.0"
+"cronstrue@npm:3.43.0":
+  version: 3.43.0
+  resolution: "cronstrue@npm:3.43.0"
   bin:
     cronstrue: bin/cli.js
-  checksum: 10c0/f119959a3ef77fe51cc764c428177923295e8c24bbe36fb0bc6c426750547f037191a77090caf6b9a01428a0e22628cf9e506fbb0822c10df6f849dad7adfefe
+  checksum: 10c0/d4820bd6aff588567c05b6d159e57c4fbf0a8a7caf31c3bf8522b2bfccdfe289395331ab6571d25175550cf5259960844a7b7ff376ea39598b46243ced795b72
   languageName: node
   linkType: hard
 
@@ -7430,14 +7444,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"re2@npm:1.27.1":
-  version: 1.27.1
-  resolution: "re2@npm:1.27.1"
+"re2@npm:1.27.2":
+  version: 1.27.2
+  resolution: "re2@npm:1.27.2"
   dependencies:
     install-artifact-from-github: "npm:^1.8.1"
     nan: "npm:^2.30.0"
     node-gyp: "npm:^13.1.0"
-  checksum: 10c0/9bb87c654cb2ee4f8a999306eedc9098599aaa248a61eabfd908707a846fc66133457dba6748e4471543aa8a196bb1f81341cbc2d35d2be52bf50d841629dcbf
+  checksum: 10c0/3ef6dc6a2b84e63470d8e880303cfaa38880e38bfe399004ea50e4a39d6c313997ab15f48293f9a6927ab04238a827bda1fe946091a265cd0dbe92bfb3d3d2f1
   languageName: node
   linkType: hard
 
@@ -7551,9 +7565,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.263.1":
-  version: 44.263.1
-  resolution: "renovate@npm:44.263.1"
+"renovate@npm:44.263.5":
+  version: 44.263.5
+  resolution: "renovate@npm:44.263.5"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1139.0"
     "@aws-sdk/client-ec2": "npm:3.1139.0"
@@ -7586,10 +7600,10 @@ __metadata:
     "@pnpm/parse-overrides": "npm:1001.0.4"
     "@qnighy/marshal": "npm:0.1.3"
     "@redis/client": "npm:6.3.1"
-    "@renovatebot/base-image": "npm:13.178.0"
+    "@renovatebot/base-image": "npm:13.178.1"
     "@renovatebot/detect-tools": "npm:5.0.0"
     "@renovatebot/good-enough-parser": "npm:4.0.3"
-    "@renovatebot/osv-offline": "npm:4.5.10"
+    "@renovatebot/osv-offline": "npm:4.5.11"
     "@renovatebot/pep440": "npm:6.0.0"
     "@renovatebot/pgp": "npm:2.0.6"
     "@renovatebot/ruby-semver": "npm:6.0.0"
@@ -7609,7 +7623,7 @@ __metadata:
     commander: "npm:15.1.0"
     common-tags: "npm:1.8.2"
     croner: "npm:10.0.1"
-    cronstrue: "npm:3.42.0"
+    cronstrue: "npm:3.43.0"
     deepmerge: "npm:4.3.1"
     dequal: "npm:2.0.3"
     detect-indent: "npm:7.0.2"
@@ -7656,7 +7670,7 @@ __metadata:
     prettier: "npm:3.10.1"
     protobufjs: "npm:8.8.1"
     punycode: "npm:2.3.1"
-    re2: "npm:1.27.1"
+    re2: "npm:1.27.2"
     remark: "npm:15.0.1"
     remark-gfm: "npm:4.0.1"
     remark-github: "npm:12.0.0"
@@ -7687,7 +7701,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/2ca4c2434e6cc8e020f1a8ae494f3334e71d806dbdd523be2430d0897294bb95eff02db8f9a92c9db6f3f74a23319d2c5804dd7af73cfea67f497c53c3128e95
+  checksum: 10c0/2b2c19c3e6aa65645e58b986ffdc95bc009bde759002386143e7cdf39662169787c6bc61ab7cafbdf4b738893d8739bc7e1e1ffafc0427db94307cce2b483661
   languageName: node
   linkType: hard
 
@@ -7845,7 +7859,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.6.2"
     prettier: "npm:3.10.1"
-    renovate: "npm:44.263.1"
+    renovate: "npm:44.263.5"
   languageName: unknown
   linkType: soft
 
